@@ -13,3 +13,6 @@ for /F %%i in ('dir /a/b ^| findstr /e /R /c:".[jpg|png|gif|jpeg|bmp]"') do (
     echo 源文件:%%i 重命名为:!newfileName!
     ren "%%i" "!newfileName!"
 )
+
+echo "完成自动命名，感谢使用"
+PAUSE
