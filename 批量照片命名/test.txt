@@ -1,0 +1,8 @@
+b2de9c82d158ccbfb40a4fd81bd8bc3eb035419a.jpg
+d788d43f8794a4c2b124d0000df41bd5ad6e3991.jpg
+src=http___cdn.duitang.com_uploads_blog_201306_25_20130625150506_fiJ2r.jpeg&refer=http___cdn.duitang.jpg
+src=http___cdn.duitang.com_uploads_item_201301_13_20130113011604_SRNyP.thumb.700_0.jpeg&refer=http___cdn.duitang.jpg
+src=http___cdn.duitang.com_uploads_item_201409_06_20140906020558_h4VfY.png&refer=http___cdn.duitang.jpg
+src=http___cdn.duitang.com_uploads_item_201410_22_20141022204337_Br4VB.thumb.700_0.jpeg&refer=http___cdn.duitang.jpg
+测试文件夹
+自动命名脚本.bat
