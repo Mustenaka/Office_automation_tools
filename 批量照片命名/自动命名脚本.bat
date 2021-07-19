@@ -3,13 +3,13 @@
 setlocal enabledelayedexpansion
 
 set /a n=0
-set /p fileName=è¯·è¾“å…¥éœ€è¦å–çš„åå­—:
+set /p fileName=ÇëÊäÈëĞèÒªÈ¡µÄÃû×Ö:
 
-rem å†/c:åé¢çš„[]å†…æŒ‰ç…§æ­£åˆ™è¡¨è¾¾å¼çš„æ ¼å¼æ·»åŠ åŒ¹é…å­—ç¬¦
+rem ÔÙ/c:ºóÃæµÄ[]ÄÚ°´ÕÕÕıÔò±í´ïÊ½µÄ¸ñÊ½Ìí¼ÓÆ¥Åä×Ö·û
 for /F %%i in ('dir /a/b ^| findstr /e /R /c:".[jpg|png|gif|jpeg|bmp]"') do (
     set /a n+=1
     set number=!n!
     set newfileName=%fileName%!n!%%~xi
-    echo æºæ–‡ä»¶:%%i é‡å‘½åä¸º:!newfileName!
+    echo Ô´ÎÄ¼ş:%%i ÖØÃüÃûÎª:!newfileName!
     ren "%%i" "!newfileName!"
 )
