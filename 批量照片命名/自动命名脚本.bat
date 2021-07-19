@@ -5,7 +5,8 @@ setlocal enabledelayedexpansion
 set /a n=0
 set /p fileName=请输入需要取的名字:
 
-for /F %%i in ('dir /a/b ^| findstr /e /R  /c:".[jpg|png|gif|jpeg]"') do (
+rem 再/c:后面的[]内按照正则表达式的格式添加匹配字符
+for /F %%i in ('dir /a/b ^| findstr /e /R /c:".[jpg|png|gif|jpeg|bmp]"') do (
     set /a n+=1
     set number=!n!
     set newfileName=%fileName%!n!%%~xi
